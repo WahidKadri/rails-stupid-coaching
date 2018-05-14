@@ -4,10 +4,11 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  margin-left: 20px;
-  h1 {
+  h1, h4 {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    margin-left: 30px;
+    padding-top: 20px;
   }
   p {
     border-left: 5px solid lightgrey;
@@ -16,11 +17,17 @@ body {
 }
 
 .container {
-  margin: 0;
+  margin-left: 10px;
 }
 
 p {
   padding: 10px;
+}
+
+.btn {
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #answer {
